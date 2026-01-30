@@ -37,7 +37,7 @@ Modern deep learning often relies on a "bag of tricks" to stabilize training. Th
 
 ### 1. The Sofit (Soft-Bit)
 Instead of neurons that sum inputs ($w \cdot x$), **Sofits** compute continuous boolean functions. We use a **Whitened Spectral Basis** derived from the Walsh-Hadamard transform:
-$$\mathcal{B} = \left\{ 1, \quad \frac{x+y}{2}, \quad \frac{x-y}{2}, \quad xy \right\}$$
+$$\mathcal{B} = \left\lbrace 1, \quad \frac{x+y}{2}, \quad \frac{x-y}{2}, \quad xy \right\rbrace$$
 This basis allows the network to naturally model XOR/XNOR relationships (parity) which are difficult for standard additive neurons, explaining the "Multiplicative" power often attributed to Attention.
 
 ### 2. Small-World Topology
