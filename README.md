@@ -5,7 +5,7 @@
 
 **Sofistron** is a minimalist recurrent architecture that challenges the complexity of modern Large Language Models. By eschewing Attention, LayerNorm, and standard non-linearities in favor of **Continuous Boolean Logic** and **Small-World Topology**, it matches Transformer performance on character-level benchmarks with **10x fewer parameters**.
 
-![Sofistron Architecture](figures/sofistron_architecture.png)
+![Sofistron Architecture](figures/sofit_activation_states.png)
 
 ---
 
@@ -39,7 +39,7 @@ Modern deep learning often relies on a "bag of tricks" to stabilize training. Th
 Instead of neurons that sum inputs ($w \cdot x$), **Sofits** compute continuous boolean functions. We use a **Whitened Spectral Basis** derived from the Walsh-Hadamard transform:
 
 <div align="center">
-  <img src="spectral_basis.png" width="400" alt="Whitened Spectral Basis Equation">
+  <img src="figures/spectral_basis.png" width="400" alt="Whitened Spectral Basis Equation">
 </div>
 
 This basis allows the network to naturally model XOR/XNOR relationships (parity) which are difficult for standard additive neurons, explaining the "Multiplicative" power often attributed to Attention.
