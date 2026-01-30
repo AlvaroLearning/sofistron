@@ -5,7 +5,7 @@
 
 **Sofistron** is a minimalist recurrent architecture that challenges the complexity of modern Large Language Models. By eschewing Attention, LayerNorm, and standard non-linearities in favor of **Continuous Boolean Logic** and **Small-World Topology**, it matches Transformer performance on character-level benchmarks with **10x fewer parameters**.
 
-![Sofistron Architecture](sofistron_architecture.png)
+![Sofistron Architecture](figures/sofistron_architecture.png)
 
 ---
 
@@ -50,12 +50,12 @@ We replace dense matrix multiplication with a structured, sparse mixing protocol
 2.  **Shift:** Circular information flow (replacing Positional Encodings).
 3.  **Jump:** Long-range teleportation via a low-rank hub.
 
-![Small World Topology](topology.png)
+![Small World Topology](figures/topology.png)
 
 ### 3. The Ghost Term (Quantization)
 While our main results use pure soft logic ($\nu=0$), the architecture supports a "Ghost Term" derived from the double-well potential $V(z) \propto (1-z^2)^2$. This term acts as a restorative force, allowing the network to self-quantize into discrete hard bits ($\pm 1$) post-training.
 
-![Ghost Dynamics](ghost_dynamics.png)
+![Ghost Dynamics](figures/ghost_dynamics.png)
 
 ---
 
@@ -65,7 +65,7 @@ Unlike standard ANNs which exhibit Gaussian activation statistics (due to the Ce
 
 This aligns closely with firing rates observed in biological neural networks, suggesting that the Sofistron's multiplicative processing may be a more biologically plausible approximation of intelligence.
 
-![Firing Distribution](lognormal_firing.png)
+![Firing Distribution](figures/lognormal_firing.png)
 
 ---
 
