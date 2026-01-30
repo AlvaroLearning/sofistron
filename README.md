@@ -20,6 +20,13 @@ We evaluate the Sofistron against **NanoGPT**, the standard educational Transfor
 | **Sofistron-Tiny** | **0.34M** | 1.516 | Soft-Bit RNN (Pure Logic) |
 
 > **Key Result:** Sofistron achieves parity with Transformer models using approximately **92% fewer parameters** and linear $O(T)$ time complexity.
+>
+> ### 🚀 Run in Colab
+
+| Model | Notebook |
+| :--- | :--- |
+| **Sofistron Base** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlvaroLearning/sofistron/blob/main/code/sofistron_base.ipynb) |
+| **Sofistron Tiny** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlvaroLearning/sofistron/blob/main/code/sofistron_tiny.ipynb) |
 
 ---
 
