@@ -1,0 +1,9 @@
+{
+    "N_SOFITS": 2048,
+    "BLOCK_DIM": 128,
+    "vocab_size": 65,
+    "BATCH_SIZE": 64,
+    "SHORTCUT_RANK": 64,
+    "DROPOUT": 0.2,
+    "TIME_WINDOW_SIZE": 128
+}
