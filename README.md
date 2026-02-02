@@ -15,9 +15,9 @@ We evaluate the Sofistron against **NanoGPT**, the standard educational Transfor
 
 | Model | Parameters | Val Loss | Architecture |
 | :--- | :--- | :--- | :--- |
-| **NanoGPT** | ~10.6M | 1.47 - 1.49 | Transformer (6 Layers, 6 Heads) |
-| **Sofistron-Base** | **0.81M** | **1.489** | **Soft-Bit RNN** (Pure Logic) |
-| **Sofistron-Tiny** | **0.34M** | 1.516 | Soft-Bit RNN (Pure Logic) |
+| **NanoGPT** | ~10.6M | 1.46 - 1.49 | Transformer (6 Layers, 6 Heads) |
+| **Sofistron-Base** | **0.81M** | **1.463** | **Soft-Bit RNN** (Pure Logic) |
+| **Sofistron-Tiny** | **0.27M** | 1.519 | Soft-Bit RNN (Pure Logic) |
 
 > **Key Result:** Sofistron achieves parity with Transformer models using approximately **92% fewer parameters** and linear $O(T)$ time complexity.
 >
@@ -65,6 +65,12 @@ While our main results use pure soft logic ($\nu=0$), the architecture supports 
 ![Ghost Dynamics](figures/ghost_dynamics.png)
 
 ---
+
+### 4. Convergence of logic gates
+
+The soft logic gates to which the model converges follow mainly a XOR like structure, explaining the power and usefulness of the multiplicative element of our basis
+
+![Logic Gates Distribution](figures/gate_logic_hist.png)
 
 ## 🧠 Emergent Biology
 
